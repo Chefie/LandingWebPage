@@ -81,7 +81,7 @@ class Index extends React.Component {
                                 }
                             </div>
                             <div className="section">
-                                <StyledAboutImage
+                                <StyledAboutImage id={"aboutImage"}
                                     src={"https://s3.eu-west-2.amazonaws.com/eu.chefie/Static/LandingPage/chefieFamily.png"}/>
                             </div>
                             <div className="section">

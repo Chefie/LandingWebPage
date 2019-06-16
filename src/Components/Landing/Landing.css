@@ -65,6 +65,12 @@ strong{
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 300px) and (max-width: 500px) {
 
+    #aboutImage{
+        position: absolute;
+        display: inline-block;
+        width: 80% !important;
+        height: 50% !important;
+    }
     .menuItem{
 
         position: relative;
@@ -75,6 +81,22 @@ strong{
         color: white;
         cursor: pointer;
         z-index: 3000;
+    }
+}
+
+@media only screen and (min-width : 500px) and (max-width: 1000px) {
+
+    #aboutImage{
+        display: inline-block;
+
+        position: absolute;
+        margin: auto;
+        top: 3%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 80% !important;
+        height: 60% !important;
     }
 }
 
