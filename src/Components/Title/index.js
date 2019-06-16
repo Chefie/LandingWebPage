@@ -12,7 +12,6 @@ export const StyledTitle = styled.h1`
   padding: 0;
 `;
 
-
 export const StyledPrivacyContainer = styled.div` 
 
 display: inline-block;
@@ -20,10 +19,10 @@ display: inline-block;
     background: #ffffff;
    width: 50%;
     max-width: 50%;
-    max-height: 78%;
+    max-height: 80%;
       border-radius: 0.5em;
 margin: auto;
-    top: 3%;
+    top: 2%;
     left: 0;
     right: 0;
     bottom: 0;
