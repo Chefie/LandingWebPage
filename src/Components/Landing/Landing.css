@@ -28,11 +28,54 @@ a{
     background: rgba(255,255,255,0.1);
     z-index: 3000;
 }
+/*
+#showcase{
+    background: #ff7e5f;  !* fallback for old browsers *!
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  !* Chrome 10-25, Safari 5.1-6 *!
+    background: linear-gradient(to right, #feb47b, #ff7e5f); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!
+}
+
+#privacy{
+    background: #232526;  !* fallback for old browsers *!
+    background: -webkit-linear-gradient(to right, #414345, #232526);  !* Chrome 10-25, Safari 5.1-6 *!
+    background: linear-gradient(to right, #414345, #232526); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!
+}
+
+#about_us {
+
+    background: #FFAFBD;  !* fallback for old browsers *!
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  !* Chrome 10-25, Safari 5.1-6 *!
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!
+}*/
 
 #chefieMenu .active{
     background: rgba(255,255,255,1);
     color: gray;
     box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.18);
+}
+
+.rightP {
+
+    text-align: right;
+}
+strong{
+    color: black;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 300px) and (max-width: 500px) {
+
+    .menuItem{
+
+        position: relative;
+        display: block;
+        border-radius: 4em;
+        padding: 1em;
+        margin: 0.5em;
+        color: white;
+        cursor: pointer;
+        z-index: 3000;
+    }
 }
 
 .slideImage {
