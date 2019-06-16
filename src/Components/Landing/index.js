@@ -3,8 +3,8 @@ import "fullpage.js/vendors/scrolloverflow";
 import ReactFullpage from "@fullpage/react-fullpage";
 import "./Landing.css"
 import {VideoSection} from "../VideoSection";
-import {SliderChild, StyledAboutImage, StyledImage} from "../SliderChild";
-import {StyledPrivacyContainer, StyledPrivacyText, StyledTitle} from "../Title";
+import {SliderChild, StyledAboutImage} from "../SliderChild";
+import {StyledPrivacyContainer, StyledPrivacyText} from "../Title";
 
 const SEL = 'section';
 const SECTION_SEL = `.${SEL}`;
@@ -81,7 +81,7 @@ class Index extends React.Component {
                                 }
                             </div>
                             <div className="section">
-                                <StyledAboutImage
+                                <StyledAboutImage id={"aboutImage"}
                                     src={"https://s3.eu-west-2.amazonaws.com/eu.chefie/Static/LandingPage/chefieFamily.png"}/>
                             </div>
                             <div className="section">
