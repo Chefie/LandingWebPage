@@ -20,7 +20,7 @@ display: inline-block;
     background: #ffffff;
    width: 50%;
     max-width: 50%;
-    max-height: 80%;
+    max-height: 78%;
       border-radius: 0.5em;
 margin: auto;
     top: 3%;
@@ -39,5 +39,5 @@ export const StyledPrivacyText = styled.h1`
   font-family: arial,helvetica,serif;
    color: #646464;
    text-align: justify-all;
-   margin: 10%;
+   padding: 10%;
 `;

@@ -21,7 +21,7 @@ height: 80%;
 
 export const StyledAboutImage = styled.img`
   display: inline-block;
- width: 80%;
+ width: 60%;
  height: 80%;
    position: absolute;
     margin: auto;
