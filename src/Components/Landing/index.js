@@ -3,8 +3,8 @@ import "fullpage.js/vendors/scrolloverflow";
 import ReactFullpage from "@fullpage/react-fullpage";
 import "./Landing.css"
 import {VideoSection} from "../VideoSection";
-import {SliderChild, StyledAboutImage, StyledImage} from "../SliderChild";
-import {StyledPrivacyContainer, StyledPrivacyText, StyledTitle} from "../Title";
+import {SliderChild, StyledAboutImage} from "../SliderChild";
+import {StyledPrivacyContainer, StyledPrivacyText} from "../Title";
 
 const SEL = 'section';
 const SECTION_SEL = `.${SEL}`;

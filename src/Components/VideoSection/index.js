@@ -5,7 +5,7 @@ import {StyledTitle} from "../Title";
 export const VideoSection = ({url, title, type}) => {
 
     return <React.Fragment>
-        <StyledVideoContainer loop muted data-autoplay>
+        <StyledVideoContainer loop data-autoplay>
             <source src={url}
                     type={`video/${type}`}>
             </source>
